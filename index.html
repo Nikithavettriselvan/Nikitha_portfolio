@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikitha | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
-    
+    <!-- Connect early to third-party domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <!-- Preload the LCP image -->
+    <link rel="preload" as="image" href="images/nikitha.webp" fetchpriority="high">
+
+    <!-- One font request, fewer weights, font-display=swap -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome loaded without blocking render -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </noscript>
+
     <link rel="icon" type="image/png" href="images/portfolio_favicon.png">
 </head>
 <body>
