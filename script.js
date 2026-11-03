@@ -1,3 +1,6 @@
+// Wake up the Squad Sync backend on Render
+fetch("https://squadsync-iqoi.onrender.com/", { mode: "no-cors" })
+  .catch(() => {});
 document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.querySelector(".menu-toggle");
     const navLinks = document.querySelector(".nav-links");
