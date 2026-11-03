@@ -1,5 +1,5 @@
 // Wake up the Squad Sync backend on Render
-fetch("https://squadsync-iqoi.onrender.com/", { mode: "no-cors" })
+fetch("https://squadsync-iqoi.onrender.com/","https://flask-chat-app-u7jc.onrender.com/","https://quick-pic-e-commerce-website.onrender.com/", { mode: "no-cors" })
   .catch(() => {});
 document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.querySelector(".menu-toggle");
